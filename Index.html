@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Dreamy Diary | Create Your World</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+--burgundy:#702d3b;
+--wine:#54212d;
+--ivory:#f8f2e9;
+--olive:#777b5b;
+--cream:#eee3d5;
+--text:#49312f;
+}
+
+body{
+background:var(--ivory);
+color:var(--text);
+font-family:Georgia,serif;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:22px 7%;
+border-bottom:1px solid #ddcfc0;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.logo{
+font-size:21px;
+letter-spacing:3px;
+color:var(--wine);
+font-weight:bold;
+}
+
+nav a{
+text-decoration:none;
+color:var(--wine);
+margin:0 9px;
+font-size:14px;
+}
+
+.hero{
+text-align:center;
+padding:85px 20px;
+background:linear-gradient(135deg,#eee1d3,#f8f2e9);
+}
+
+.hero small{
+letter-spacing:4px;
+color:var(--olive);
+}
+
+.hero h1{
+font-size:clamp(42px,8vw,76px);
+line-height:1.1;
+margin:25px 0;
+color:var(--wine);
+}
+
+.hero p{
+font-size:16px;
+line-height:1.8;
+max-width:550px;
+margin:0 auto 28px;
+}
+
+.btn{
+display:inline-block;
+background:var(--burgundy);
+color:white;
+padding:14px 28px;
+text-decoration:none;
+border-radius:3px;
+border:0;
+font-family:Georgia,serif;
+cursor:pointer;
+}
+
+section{
+padding:65px 7%;
+}
+
+.heading{
+text-align:center;
+font-size:36px;
+font-weight:normal;
+color:var(--wine);
+margin-bottom:12px;
+}
+
+.subheading{
+text-align:center;
+color:#88766a;
+margin-bottom:35px;
+}
+
+.grid{
+columns:3 200px;
+column-gap:18px;
+}
+
+.card{
+break-inside:avoid;
+margin-bottom:18px;
+background:#fffaf4;
+padding:10px;
+border:1px solid #e5d9cc;
+}
+
+.art{
+height:190px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+font-size:24px;
+color:white;
+background:linear-gradient(140deg,#8b4552,#d5b49c);
+}
+
+.card:nth-child(2n) .art{
+height:245px;
+background:linear-gradient(140deg,#777b5b,#cbb99d);
+}
+
+.card:nth-child(3n) .art{
+height:165px;
+background:linear-gradient(140deg,#a36d63,#e2c9b5);
+}
+
+.card h3{
+padding:14px 5px 5px;
+font-weight:normal;
+color:var(--wine);
+}
+
+.studio{
+background:#efe5d9;
+}
+
+.tools{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(145px,1fr));
+gap:16px;
+}
+
+.tool{
+background:#fffaf4;
+padding:27px 12px;
+text-align:center;
+border:1px solid #dfd1c1;
+}
+
+.tool span{
+font-size:30px;
+}
+
+.tool h3{
+font-weight:normal;
+margin-top:12px;
+color:var(--wine);
+}
+
+.community{
+text-align:center;
+background:#777b5b;
+color:white;
+}
+
+.community h2{
+font-size:36px;
+font-weight:normal;
+margin-bottom:15px;
+}
+
+.community p{
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.community .btn{
+background:var(--ivory);
+color:var(--wine);
+}
+
+footer{
+background:var(--wine);
+color:var(--ivory);
+text-align:center;
+padding:35px 15px;
+line-height:2;
+}
+
+@media(max-width:600px){
+header{justify-content:center;text-align:center}
+nav{width:100%}
+nav a{margin:0 6px;font-size:12px}
+.hero{padding:65px 18px}
+section{padding:50px 5%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">AI DREAMY DIARY</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#explore">Explore</a>
+<a href="#studio">Create</a>
+<a href="#community">Community</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<small>✦ A WORLD OF IMAGINATION ✦</small>
+
+<h1>Dream.<br>Create. Inspire.</h1>
+
+<p>
+Welcome to your creative universe.
+Discover inspiration, explore beautiful ideas
+and turn your imagination into something special.
+</p>
+
+<a class="btn" href="#studio">Explore Creative Studio</a>
+</div>
+
+<section id="explore">
+
+<h2 class="heading">The Dreamy Collection</h2>
+
+<p class="subheading">
+Discover ideas. Save inspiration. Create something beautiful.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<div class="art">Digital Art</div>
+<h3>Art & Illustration</h3>
+</div>
+
+<div class="card">
+<div class="art">Your Story Begins</div>
+<h3>Stories & Writing</h3>
+</div>
+
+<div class="card">
+<div class="art">Imagine More</div>
+<h3>AI Characters</h3>
+</div>
+
+<div class="card">
+<div class="art">Creative Vision</div>
+<h3>Design Studio</h3>
+</div>
+
+<div class="card">
+<div class="art">Dream in 3D</div>
+<h3>3D Creations</h3>
+</div>
+
+<div class="card">
+<div class="art">Inspiration Lives Here</div>
+<h3>Creator Gallery</h3>
+</div>
+
+</div>
+</section>
+
+<section class="studio" id="studio">
+
+<h2 class="heading">Creative Studio</h2>
+
+<p class="subheading">
+Choose your creative world.
+</p>
+
+<div class="tools">
+
+<div class="tool"><span>🎨</span><h3>AI Image</h3></div>
+<div class="tool"><span>🎬</span><h3>AI Video</h3></div>
+<div class="tool"><span>🎙️</span><h3>AI Voice</h3></div>
+<div class="tool"><span>🎵</span><h3>AI Music</h3></div>
+<div class="tool"><span>📖</span><h3>AI Stories</h3></div>
+<div class="tool"><span>✨</span><h3>AI Design</h3></div>
+<div class="tool"><span>🪄</span><h3>AI Characters</h3></div>
+<div class="tool"><span>🧊</span><h3>3D Studio</h3></div>
+
+</div>
+</section>
+
+<section class="community" id="community">
+
+<h2>Made for Dreamers & Creators</h2>
+
+<p>
+A space to discover creativity, share ideas
+and celebrate imagination.
+</p>
+
+<a class="btn" href="#explore">Discover More</a>
+
+</section>
+
+<footer>
+<strong>AI DREAMY DIARY</strong>
+<br>
+Where imagination finds its home.
+<br>
+Made with love ♡
+</footer>
+
+</body>
+  </html>
